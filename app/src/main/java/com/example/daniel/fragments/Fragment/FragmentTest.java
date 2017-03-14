@@ -1,4 +1,4 @@
-package com.example.daniel.fragments;
+package com.example.daniel.fragments.Fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.example.daniel.fragments.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

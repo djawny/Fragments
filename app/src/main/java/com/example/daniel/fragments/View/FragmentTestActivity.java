@@ -1,14 +1,17 @@
-package com.example.daniel.fragments;
+package com.example.daniel.fragments.View;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import com.example.daniel.fragments.Fragment.FragmentTest;
+import com.example.daniel.fragments.R;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class FragmentTestActivity extends AppCompatActivity {
 
-    private static final String TAG = FragmentTest.class.getCanonicalName();
+    private static final String TAG = FragmentTestActivity.class.getCanonicalName();
 
     FragmentTest fragmentTest;
 
@@ -22,6 +25,7 @@ public class FragmentTestActivity extends AppCompatActivity {
                 .beginTransaction()
                 .add(R.id.activity_fragment_test, FragmentTest.getInstance("Daniel"), TAG)
                 .commit();
+        getSupportFragmentManager().executePendingTransactions();
         fragmentTest = (FragmentTest) getSupportFragmentManager().findFragmentByTag(TAG);
     }
 

@@ -4,18 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.daniel.fragments.FragmentCommunicationActivity">
+    tools:context="com.example.daniel.fragments.View.FragmentCommunicationActivity">
 
     <fragment
         android:id="@+id/fragment_edittext"
-        android:name="com.example.daniel.fragments.FragmentEditText"
+        android:name="com.example.daniel.fragments.Fragment.FragmentEditText"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
 
     <fragment
         android:id="@+id/fragment_textview"
-        android:name="com.example.daniel.fragments.FragmentTextView"
+        android:name="com.example.daniel.fragments.Fragment.FragmentTextView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />

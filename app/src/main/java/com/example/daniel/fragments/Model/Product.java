@@ -1,4 +1,4 @@
-package com.example.daniel.fragments;
+package com.example.daniel.fragments.Model;
 
 import java.io.Serializable;
 

@@ -5,24 +5,27 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.example.daniel.fragments.MainActivity">
+    tools:context="com.example.daniel.fragments.View.MainActivity">
 
     <Button
         android:id="@+id/storage_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Storage" />
+        android:layout_margin="@dimen/medium_margin"
+        android:text="Storage Activity" />
 
     <Button
         android:id="@+id/fragment_test_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fragment test" />
+        android:layout_margin="@dimen/medium_margin"
+        android:text="Fragment test Activity" />
 
     <Button
         android:id="@+id/fragment_communication_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fragment communication" />
+        android:layout_margin="@dimen/medium_margin"
+        android:text="Fragment communication Activity" />
 
 </LinearLayout>

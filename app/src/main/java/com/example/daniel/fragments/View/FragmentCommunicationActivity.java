@@ -1,7 +1,11 @@
-package com.example.daniel.fragments;
+package com.example.daniel.fragments.View;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.daniel.fragments.Fragment.FragmentEditText;
+import com.example.daniel.fragments.Fragment.FragmentTextView;
+import com.example.daniel.fragments.R;
 
 import butterknife.ButterKnife;
 

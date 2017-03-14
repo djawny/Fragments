@@ -1,9 +1,11 @@
-package com.example.daniel.fragments;
+package com.example.daniel.fragments.View;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.daniel.fragments.R;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -18,19 +20,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @OnClick({R.id.storage_button, R.id.fragment_test_button, R.id.fragment_communication_button})
-    public void onClickButton(View view) {
+    public void onButtonClicked(View view) {
+        Intent intent;
         switch (view.getId()) {
             case R.id.storage_button:
-                Intent intent1 = new Intent(this, TestStorageActivity.class);
-                startActivity(intent1);
+                intent = new Intent(this, TestStorageActivity.class);
+                startActivity(intent);
                 break;
             case R.id.fragment_test_button:
-                Intent intent2 = new Intent(this, FragmentTestActivity.class);
-                startActivity(intent2);
+                intent = new Intent(this, FragmentTestActivity.class);
+                startActivity(intent);
                 break;
             case R.id.fragment_communication_button:
-                Intent intent3 = new Intent(this, FragmentCommunicationActivity.class);
-                startActivity(intent3);
+                intent = new Intent(this, FragmentCommunicationActivity.class);
+                startActivity(intent);
                 break;
         }
     }

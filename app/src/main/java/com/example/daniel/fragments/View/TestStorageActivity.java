@@ -1,4 +1,4 @@
-package com.example.daniel.fragments;
+package com.example.daniel.fragments.View;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -11,6 +11,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.daniel.fragments.Model.Product;
+import com.example.daniel.fragments.R;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

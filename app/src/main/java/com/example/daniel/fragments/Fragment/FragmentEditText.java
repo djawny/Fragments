@@ -1,4 +1,4 @@
-package com.example.daniel.fragments;
+package com.example.daniel.fragments.Fragment;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+
+import com.example.daniel.fragments.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
