@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="8dp"
-    tools:context="com.example.daniel.fragments.View.TestStorageActivity">
+    tools:context="com.example.daniel.fragments.activity.TestStorageActivity">
 
     <ScrollView
         android:layout_width="match_parent"

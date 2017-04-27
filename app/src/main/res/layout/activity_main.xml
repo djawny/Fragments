@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.example.daniel.fragments.View.MainActivity">
+    tools:context="com.example.daniel.fragments.activity.MainActivity">
 
     <Button
         android:id="@+id/storage_button"
